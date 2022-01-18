@@ -1,0 +1,24 @@
+.navbar {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: rgb(129, 69, 129);
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+.active {
+  color: red;
+  font-size: 4vh;
+}
+.logo {
+  height: 10vh;
+}
+.standart {
+  font-size: 4vh;
+  color: wheat;
+}
+.home {
+  grid-column-start: 7;
+  grid-column-end: 8;
+}
